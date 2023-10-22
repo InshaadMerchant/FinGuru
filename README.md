@@ -26,10 +26,5 @@ We are proud of the fact that we were able to successfully implement a user frie
 We plan to offer advice on new types of loans and insurance products in the future. Our app will stay upto date with the market trends in the financial trends and will change accordingly. We will also focus on gathering more user data for enhancements and offering more customization for policies.
 
 
-<img width="1415" src="https://github.com/InshaadMerchant/FinGuru/assets/91715509/afb8cf52-58e8-4f2b-8a6d-520dd817fe7f">
 
-<img width="1415" src="https://github.com/InshaadMerchant/FinGuru/assets/91715509/6f8f28df-5d8d-4c1a-bf0d-c2bc065a0bfc">
-
-<img width="1415" src="https://github.com/InshaadMerchant/FinGuru/assets/91715509/b652761e-b33c-461c-9331-e0bf03bc2820">
-
-<img width="1415" src="https://github.com/InshaadMerchant/FinGuru/assets/91715509/b90b6d75-193e-40e3-8800-82174832e425">
+![FinGuru](https://github.com/InshaadMerchant/FinGuru/assets/91715509/24cf8f35-4acd-400c-a0cc-a89a15ca650f)
