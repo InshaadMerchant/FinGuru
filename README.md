@@ -1,5 +1,4 @@
 # FinGuru
-Description:
 Our App is driven by a strong belief in the importance of financial services in people's lives. Our 
 inspiration lies in the desire to simplify access to these services through innovation and user-friendliness. 
 This app provides users with real-time information about home and educational loans, as well as auto insurance, 
