@@ -60,7 +60,7 @@
             android:paddingTop="30dp">
 
             <LinearLayout
-                android:id="@+id/layoutGoal"
+                android:id="@+id/HomeLoad_LL"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -69,10 +69,11 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="15dp"
-                app:layout_constraintEnd_toStartOf="@id/layoutAutoInsurance"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintDimensionRatio="H, 1:1"
-                tools:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintEnd_toStartOf="@id/autoinsurance_ll"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintDimensionRatio="H, 1:1">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -80,7 +81,7 @@
                     android:layout_margin="8dp"
                     android:contentDescription="@string/app_name"
                     android:padding="8dp"
-                    android:id="@+id/home_loan"
+
                     android:src="@drawable/home_loan"
                     app:layout_constraintStart_toStartOf="parent">
 
@@ -90,6 +91,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
+                    android:id="@+id/home_loan"
                     android:text="Home Loan"
                     android:textColor="@color/black"
                     android:textSize="15sp"
@@ -98,7 +100,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/layoutAutoInsurance"
+                android:id="@+id/autoinsurance_ll"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -108,10 +110,11 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="15dp"
+                app:layout_constraintStart_toEndOf="@id/HomeLoad_LL"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/layoutGoal"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintDimensionRatio="H, 1:1">
+                app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintDimensionRatio="H, 1:1">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -119,7 +122,7 @@
                     android:layout_margin="8dp"
                     android:contentDescription="@string/app_name"
                     android:padding="8dp"
-                    android:id="@+id/auto_insurance"
+
                     android:src="@drawable/auto_insurance"
                     tools:layout_editor_absoluteX="155dp"
                     tools:layout_editor_absoluteY="62dp"></ImageView>
@@ -129,6 +132,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Auto Insurance"
+                    android:id="@+id/auto_insurance"
                     android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -136,43 +140,7 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/layoutEducationLoan"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="22dp"
-                android:layout_marginRight="16dp"
-                android:background="@drawable/black_rectangle_background"
-                android:gravity="center"
-                android:orientation="vertical"
-                android:padding="15dp"
-                app:layout_constraintEnd_toStartOf="@id/layoutAutoInsurance"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintDimensionRatio="H, 1:1"
-                tools:layout_constraintTop_toBottomOf="@id/layoutGoal">
-
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:layout_margin="8dp"
-                    android:contentDescription="@string/app_name"
-                    android:padding="8dp"
-                    android:id="@+id/education_loan"
-                    android:src="@drawable/education_loan"></ImageView>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Education Loan"
-                    android:textColor="@color/black"
-                    android:textSize="15sp"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/layoutCustomizePolicy"
+                android:id="@+id/EducationLoan_ll"
                 android:layout_width="0dp"
                 android:layout_height="165dp"
                 android:layout_marginLeft="16dp"
@@ -182,10 +150,49 @@
                 android:gravity="center"
                 android:orientation="vertical"
                 android:padding="15dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/layoutGoal"
-                app:layout_constraintTop_toBottomOf="@id/layoutAutoInsurance"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/CustomizePolicy_ll"
+                app:layout_constraintTop_toBottomOf="@+id/HomeLoad_LL"
+                app:layout_constraintHorizontal_weight="1"
                 app:layout_constraintDimensionRatio="H, 1:1">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:padding="8dp"
+
+                    android:src="@drawable/education_loan"></ImageView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/education_loan"
+                    android:text="Education Loan"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/CustomizePolicy_ll"
+                android:layout_width="0dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/black_rectangle_background"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp"
+                app:layout_constraintStart_toEndOf="@id/EducationLoan_ll"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/autoinsurance_ll"
+                app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintDimensionRatio="H, 1:1">
 
                 <ImageView
                     android:layout_width="100dp"
@@ -193,7 +200,7 @@
                     android:layout_marginTop="8dp"
                     android:contentDescription="@string/app_name"
                     android:padding="8dp"
-                    android:id="@+id/policy_customization"
+
                     android:src="@drawable/customizing_policy"></ImageView>
 
                 <TextView
@@ -201,6 +208,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Policy Customization"
+                    android:id="@+id/policy_customization"
                     android:textColor="@color/black"
                     android:textSize="12sp"
                     android:textStyle="bold" />

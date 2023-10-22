@@ -58,8 +58,7 @@ public class CreateProfile extends AppCompatActivity {
                 HelperClass_Profile helperClass_profile = new HelperClass_Profile( age_int,  monthly_income_int, monthly_saving_int,Total_loan_inst_int,credit_sc_int,Occupation);
                 reference.child("Athrva").setValue(helperClass_profile);
                 Toast.makeText(CreateProfile.this, "Profile Creation Successful", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(CreateProfile.this, LoginActivity.class);
-
+                Intent intent = new Intent(CreateProfile.this, Dashboard.class);
                 startActivity(intent);
 
             }

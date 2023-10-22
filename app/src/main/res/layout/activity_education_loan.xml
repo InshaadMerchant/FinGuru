@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Azureish_White"
+    android:gravity="center"
+    android:onClick="register"
+    android:orientation="vertical"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/custom_edittext"
+        android:paddingTop="15dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:paddingTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/registrationText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Education Loan"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/sat_score"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_sat24"
+                android:drawablePadding="10dp"
+                android:hint="Enter SAT score"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/sevis_id"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_sevis_24"
+                android:drawablePadding="10dp"
+                android:hint="Enter Your Sevis ID"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/institution_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_school_24"
+                android:drawablePadding="10dp"
+                android:hint="Enter Your Institution's Name"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/federal_aid"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_aid24"
+                android:drawablePadding="10dp"
+                android:hint="Enter Any Federal Aid Received"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/guarantor_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_money_24"
+                android:drawablePadding="10dp"
+                android:hint="Enter Guarantor's Name"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/guarantor_income"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_attach_down_payment_24"
+                android:drawablePadding="10dp"
+                android:hint="Enter Guarantor's Income"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/scholarship_amount"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_payment_24"
+                android:drawablePadding="10dp"
+                android:hint="Enter Any Current Scholarship"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background" />
+
+            <Button
+                android:id="@+id/educationButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/purple_700"
+                android:onClick="register"
+                android:text="Next ->"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                app:cornerRadius="20dp"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
