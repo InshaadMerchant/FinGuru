@@ -27,6 +27,9 @@ We plan to offer advice on new types of loans and insurance products in the futu
 
 
 ![FinGuru-removebg-preview](https://github.com/InshaadMerchant/FinGuru/assets/91715509/afb8cf52-58e8-4f2b-8a6d-520dd817fe7f)
+
 ![Login](https://github.com/InshaadMerchant/FinGuru/assets/91715509/6f8f28df-5d8d-4c1a-bf0d-c2bc065a0bfc)
+
 ![Registration](https://github.com/InshaadMerchant/FinGuru/assets/91715509/b652761e-b33c-461c-9331-e0bf03bc2820)
+
 ![Dashboard](https://github.com/InshaadMerchant/FinGuru/assets/91715509/b90b6d75-193e-40e3-8800-82174832e425)
