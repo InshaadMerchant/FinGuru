@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249150061547",
+    "project_id": "hacktx-6599e",
+    "storage_bucket": "hacktx-6599e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249150061547:android:1f6946fe1dbe71e333f7ae",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ-ew1uFSDlrteQoTkTjRLcgwJzhDoEbI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
